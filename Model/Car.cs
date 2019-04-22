@@ -37,9 +37,16 @@ namespace Dealership {
       return Color;
     }
 
-    public bool WorthBuying(int maxPrice)
+    public bool WorthBuyingPrice(int maxPrice)
     {
       return (Price < maxPrice);
+
+    }
+
+    public bool WorthBuyingMiles(int maxMiles)
+    {
+      return (Miles < maxMiles);
+
     }
 
     public void SetPrice(int newPrice)
