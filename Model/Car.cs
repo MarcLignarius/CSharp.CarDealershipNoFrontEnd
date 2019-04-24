@@ -1,6 +1,7 @@
 using System;
 
-namespace Dealership {
+namespace Dealership
+{
 
   class Car
   {
@@ -40,13 +41,11 @@ namespace Dealership {
     public bool WorthBuyingPrice(int maxPrice)
     {
       return (Price < maxPrice);
-
     }
 
     public bool WorthBuyingMiles(int maxMiles)
     {
       return (Miles < maxMiles);
-
     }
 
     public void SetPrice(int newPrice)
@@ -55,5 +54,4 @@ namespace Dealership {
     }
 
   }
-
 }

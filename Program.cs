@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
 
-namespace Dealership {
+namespace Dealership
+{
 
   public class Program
-
   {
+
     public static void Main()
     {
       Car porsche = new Car("2014 Porsche 911", 114991, 7864, "White");
@@ -39,7 +40,7 @@ namespace Dealership {
         Console.WriteLine("We don't have any cars matching your search at the moment. Please check again later!");
       }
 
-      foreach(Car automobile in CarsMatchingSearch)
+      foreach (Car automobile in CarsMatchingSearch)
       {
         Console.WriteLine("----------------------");
         Console.WriteLine(automobile.GetMakeModel());
